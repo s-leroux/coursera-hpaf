@@ -30,6 +30,7 @@ day_cnts_to_output = [] #an empty list of day counts for a given word
 # see https://docs.python.org/2/tutorial/datastructures.html for list details
 
 line_cnt           = 0  #count input lines
+curr_word_total_cnt = 0
 
 for line in sys.stdin:
     line       = line.strip()       #strip out carriage return
