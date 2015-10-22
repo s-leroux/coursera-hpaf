@@ -1,4 +1,4 @@
-iFirst of all, don't forget to remove the input files of
+First of all, don't forget to remove the input files of
 the previous assignments:
 
     hdfs dfs -rm /user/cloudera/input/*
