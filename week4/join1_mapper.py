@@ -15,8 +15,6 @@ import sys
 #
 # --------------------------------------------------------------------------
 
-
-
 for line in sys.stdin:
     line       = line.strip()   #strip out carriage return
     key_value  = line.split(",")   #split line, into key and value, returns a list
